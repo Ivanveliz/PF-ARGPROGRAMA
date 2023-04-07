@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+/* reseteos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*empieza estilos del HEADER */
+.contenedor-header {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+
+}
+
+.contenedor-header .menu ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem;
+    font-size: 20px;
+
+}
+
+.menu {
+    display: flex;
+    gap: 3rem;
+
+}
+
+.menu-item {
+    color: white;
+
+}
+
+.logo {
+    width: 305px;
+    height: 65px;
+    border: 2px solid white;
+}
+
+.calculator {
+    width: 105px;
+    height: 105px;
+    background-image: url(../img/calculadora.png);
+    background-position: center;
+    background-size: cover;
+    margin-right: 1rem;
+
+
+}
+
+/* fin de estilos HEADER - comienza estilos de HERO */
+.hero {
+    height: 50vh;
+    background-image: url(../img/hero.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    padding: 2.5rem;
+}
+
+.hero .hero-text h1,
+h2 {
+    font-size: 36px;
+
+}
+
+.hero .hero-text p {
+    font-size: 25px;
+}
+
+.hero-button {
+    width: 400px;
+    height: 55px;
+    background-color: #928E8E;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+span {
+    font-size: 2.3rem;
+
+}
+
+/* FIN de estilos de HERO - Comienza estilos de QUIENES SOMOS */
+
+.quienes-somos{
+    background-color: #D9D9D9;
+}
+.menu-section{
+   text-align: center;
+   font-size: 40px;
+   padding-top: 60px;
+}
+
+.section-text{
+    font-size: 20px;
+    padding-left: 115px;
+    padding-right: 115px;
+    text-align: center;
+}
+
+.card{
+    width: 590px;
+    height: 780px;
+    border-radius: 2rem;
+    background-color: #F8F8FD;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+.contenedor-cards{
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+
+}
+
+.picture-martin{
+    width: 490px;
+    height: 430px;
+    background-image: url(../img/card1.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 2rem;
+    margin-top: 45px;
+           
+}
+.picture-mariana{
+    width: 490px;
+    height: 430px;
+    background-image: url(../img/card2.jpg);
+    background-position: top;
+    background-size: cover;
+    margin-top: 45px;
+    border-radius: 2rem;
+}
+
+h3{
+    padding: 1.5rem;
+    font-size: 24px;
+}
+.card-text{
+    text-align: center;
+    font-size: 20px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+/* finaliza estilos de SECTION QUIENES SOMOS - Inicia estilos de MATERIAL DIDÁCTICO */
+
+.videoteca{
+    background-color: #E5E5E5;
+    
+}
+
+.contenedor-video-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+.contenedor{
+    height: 235px;
+    width: 350px;
+    background-color: #F8F8FD;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-video1{
+    width: 350px;
+    height: 120px;
+    background-image: url(../img/matematicas.jpg);
+    background-size: cover;
+    background-position: top;
+}
+.img-video2{
+    width: 350px;
+    height: 120px;
+    background-image: url(../img/literatura.jpg);
+    background-size: cover;
+    
+}
+
+.img-video3{
+    width: 350px;
+    height: 120px;
+    background-image: url(../img/sociales.jpg);
+    background-size: cover;
+    background-position:bottom;
+    
+}
+.contenedor h4 a{
+    padding-top: 1rem;
+    font-size: 24px;
+}
+.button-contenedor{
+    text-align: center;
+    padding: 2rem;
+}
+.button-vermas{
+    height: 50px;
+    width: 215px;
+    background-color: #928E8E ;
+    border-radius: 2rem;
+    border: 1px solid black;
+    font-size: 20;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* finaliza estilos de SECTION VIDEOTECA --- Comienza estilos de SECTION FAQS */
+
+.faqs{
+    background-color: #D9D9D9;
+}
+.contenedor-faqs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+
+}
+
+.imagen-faqs{
+    height: 350px;
+    width: 500px;
+    background-image: url(../img/faqimg.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 2rem;
+}
+table{
+    border-radius: 1rem;
+    width: 560px;
+    height: 370px;
+    
+}
+
+td{
+    border: 1px solid #928e8e84 ;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+/* finaliza estilos de SECTION FAQS --- empieza estilos de CONTACTO */
+
+.form{
+    background-color: #E5E5E5;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+    gap: 1rem;
+}   
+
+input, textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #E5E5E5;
+}
+
+.button-submit{
+    width: 245px;
+    height: 50px;
+    border-radius: 3rem;
+    text-transform: uppercase;
+    background-color: #928E8E;
+    border: 2px solid black;
+    
+}
+
+/* Fin de estilos SECTION CONTACTO --  empieza estilos de FOOTER */
+
+footer{
+    background-color: black;
+    color: white;
+}
+.footer{
+    display: flex;
+
+}
+
+.contenedor-footer .foto-wp{
+    width: 125px;
+    height: auto;
+    background-color: aqua;
+}
