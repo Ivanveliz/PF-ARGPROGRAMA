@@ -1,31 +1,31 @@
 [{
     "nombre": "Literatura",
     "enlace": "https://www.youtube.com/",
-    "imagen": "/img/literatura.jpg"
+    "imagen": "./img/literatura.jpg"
   },
   {
     "nombre": "Matematicas",
     "enlace": "https://www.youtube.com/",
-    "imagen": "/img/matematicas.jpg"
+    "imagen": "./img/matematicas.jpg"
   },
   {
     "nombre": "Ciencias Sociales",
     "enlace": "https://www.youtube.com/",
-    "imagen": "/img/sociales.jpg"
+    "imagen": "./img/sociales.jpg"
   },
   {
     "nombre": "Programacion",
     "enlace": "https://www.youtube.com/",
-    "imagen": "/img/programacion.jpg"
+    "imagen": "./img/programacion.jpg"
   },
   {
     "nombre": "Geografia",
     "enlace": "https://www.youtube.com/",
-    "imagen": "/img/geografia.jpg"
+    "imagen": "./img/geografia.jpg"
   },
   {
     "nombre": "Arte",
     "enlace": "https://www.youtube.com/",
-    "imagen": "/img/arte.jpg"
+    "imagen": "./img/arte.jpg"
   }
 ]
