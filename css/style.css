@@ -68,7 +68,7 @@ a {
 
 /* fin de estilos HEADER - comienza estilos de HERO */
 .hero {
-    height: 50vh;
+    height: 80vh;
     background-image: url(../img/hero.jpg);
     background-position: center;
     background-size: cover;
@@ -210,7 +210,8 @@ h3 {
     
 }
 .card-img{
-   width: 350px;
+   width: 300px;
+   border-radius: 1rem;
     
 }
 
@@ -289,6 +290,7 @@ form {
     flex-direction: column;
     padding: 5rem;
     gap: 1rem;
+    resize: none;
 }
 
 input,
@@ -296,6 +298,7 @@ textarea {
     border: none;
     border-bottom: 2px solid black;
     background-color: #E5E5E5;
+    resize: none;
 }
 
 .button-submit {
@@ -332,7 +335,6 @@ footer {
 
 .contenedor-footer{
     width: 350px;
-    border: 1px solid black;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -341,12 +343,12 @@ footer {
 }
 
 .foto-wp{
-    width: 125px;
-    height: 125px;
-    border: 1px solid black;
+    width: 50px;
+    height: 50px;
     background-image: url(../img/whatsapp.png);
     background-position: center;
     background-size: cover;
+    margin: 1rem;
 }
 
 .redes{
@@ -366,6 +368,12 @@ footer {
     height: 50px;
     background-image: url(../img/instagram.png);
 
+}
+
+.bi-c-circle-fill{
+    padding: 0;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 

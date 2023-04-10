@@ -15,7 +15,6 @@ fetch("./videoteca.json").then(response => response.json())
 const contenedorVideoCards = document.getElementById("contenedor-video-cards")
 
 
-
 // agrego las cards de videoteca
 
 function cargarcards(cards) {
@@ -33,3 +32,20 @@ function cargarcards(cards) {
     contenedorVideoCards.append(div)
   });
 }
+
+
+
+
+
+
+const buttonForm = document.querySelector("#button-form");
+  
+  buttonForm.addEventListener("click", function(event) {
+    event.preventDefault(); // Detiene la acción predeterminada del botón
+  
+    Swal.fire(
+      'tu formulario ha sido enviado',
+      'Pronto nos comunicaremos con vos',
+      'info'
+    )
+  });
