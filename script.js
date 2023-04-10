@@ -33,11 +33,7 @@ function cargarcards(cards) {
   });
 }
 
-
-
-
-
-
+//ALERT EN FORMULARIO
 const buttonForm = document.querySelector("#button-form");
   
   buttonForm.addEventListener("click", function(event) {
