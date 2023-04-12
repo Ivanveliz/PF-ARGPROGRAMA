@@ -9,11 +9,9 @@ fetch("./videoteca.json").then(response => response.json())
     cargarcards(CardsVideoteca)
   })
 
-
 // elementos del DOM
 
 const contenedorVideoCards = document.getElementById("contenedor-video-cards")
-
 
 // agrego las cards de videoteca
 
@@ -33,15 +31,55 @@ function cargarcards(cards) {
   });
 }
 
+
+// llamo al archivo JSON a través de fetch
+let CardsCalculadoras = []
+
+fetch("./calculadoras.json").then(response => response.json())
+  .then(data => {
+    CardsCalculadoras = data
+
+
+    cargarcardscalc(CardsCalculadoras)
+  })
+
+
+const contenedorCalculadorasCards = document.getElementById("contenedor-calculadoras-cards")
+
+
+// agrego las cards de calculadoras
+
+function cargarcardscalc(cards) {
+  cards.forEach(card => {
+    const div = document.createElement("div");
+    div.classList.add("calculadora-card");
+    div.innerHTML = `
+      <div class="card-calculadora">
+        <div class="contenedor-img">
+        <img class="card-img-calc" src="${card.imagen}" alt="matematicas">
+        <div class="contenedor-enlace-cards">
+            <h4><a href="${card.enlace}" target="_blank">${card.nombre}</a></h4>
+            </div>
+        </div>
+      </div>
+    `;
+    // en este caso no supimos como hacer para que los h4 queden los 3 alienados en las cards, 
+    contenedorCalculadorasCards.append(div)
+  });
+} 
+
+
+// alert en ver mas
+
 //ALERT EN FORMULARIO
-const buttonForm = document.querySelector("#button-form");
+const buttonForm = document.querySelector("#button-ver-mas");
   
   buttonForm.addEventListener("click", function(event) {
     event.preventDefault(); // Detiene la acción predeterminada del botón
   
     Swal.fire(
-      'tu formulario ha sido enviado',
-      'Pronto nos comunicaremos con vos',
+      'Este botón todavia no es funcional',
+      'Se dejo para usar la libreria  sweetAlert',
       'info'
     )
   });

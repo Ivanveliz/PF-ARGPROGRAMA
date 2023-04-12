@@ -1,0 +1,16 @@
+[{
+    "nombre": "Wolfram",
+    "enlace": "https://es.wolframalpha.com/",
+    "imagen": "./img/wolfram.jpg"
+  },
+  {
+    "nombre": "Symbolab",
+    "enlace": "https://es.symbolab.com/",
+    "imagen": "./img/symbolab.jpg"
+  },
+  {
+    "nombre": "Geogebra",
+    "enlace": "https://www.geogebra.org/?lang=es",
+    "imagen": "./img/geogebra.jpg"
+  }
+]
