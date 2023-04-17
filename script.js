@@ -12,6 +12,7 @@ fetch("./videoteca.json").then(response => response.json())
 // elementos del DOM
 
 const contenedorVideoCards = document.getElementById("contenedor-video-cards")
+const contenedorCalculadorasCards = document.getElementById("contenedor-calculadoras-cards")
 
 // agrego las cards de videoteca
 
@@ -44,7 +45,6 @@ fetch("./calculadoras.json").then(response => response.json())
   })
 
 
-const contenedorCalculadorasCards = document.getElementById("contenedor-calculadoras-cards")
 
 
 // agrego las cards de calculadoras

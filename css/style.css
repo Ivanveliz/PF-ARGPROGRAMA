@@ -6,8 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
-
 }
 
 ul {
@@ -62,8 +60,6 @@ a {
     background-position: center;
     background-size: cover;
     margin-right: 1rem;
-
-
 }
 
 /* fin de estilos HEADER - comienza estilos de HERO */
@@ -82,7 +78,6 @@ a {
 .hero .hero-text h1,
 h2 {
     font-size: 36px;
-
 }
 
 .hero .hero-text p {
