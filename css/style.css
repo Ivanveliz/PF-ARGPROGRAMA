@@ -238,6 +238,13 @@ h3 {
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+    transition: 0.5s all;
+}
+
+.button-vermas:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
 }
 
 /* finaliza estilos de SECTION VIDEOTECA --- Comienza estilos de SECTION CALCULADORAS */
@@ -350,9 +357,15 @@ textarea {
     text-transform: uppercase;
     background-color: #928E8E;
     border: 2px solid black;
-
+    transition: 0.5s all;
 }
-
+.button-submit:hover{
+    
+        background-color: black;
+        border: 1px solid white;
+        color: white;
+    
+}
 /* Fin de estilos SECTION CONTACTO --  empieza estilos de FOOTER */
 
 footer {
